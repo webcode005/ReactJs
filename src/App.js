@@ -1,29 +1,9 @@
-import Table from "./components/Table";
-function App()
-{
-    const data=[
-        {
-            name: "Pramod",
-            City: "Geeta Colony"
-        },
-        {
-            name: "Shasank",
-            City: "Mangal Bazar"
-        },
-        {
-            name: "Himanshu",
-            City: "Bhogal"
-        },
-        {
-            name: "Basant",
-            City: "Laxmi Nagar"
-        }
-    ];
-    
-    
+import Form from './Form';
+
+export default function App() {
     return (
-            <Table item={data}/>
+        <div>
+                <Form/>
+      </div>
     );
 }
-
-export default App;
